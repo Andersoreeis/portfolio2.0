@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --color-primary:#3C9AFE;
+    --color-fundo: #ffffff;
+    --color-secundary: #1B222A;
+}
+html{
+    
+
+}
+
+header{
+height: 30px;
+position: sticky;
+top: 0px;
+background-color: orangered;
+}
+main{
+
+
+}
+section{
+    height: 100vh;
+}
+footer{
+   
+ height: 100px;
+}
