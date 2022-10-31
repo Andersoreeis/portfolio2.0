@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rowdies:wght@300;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7dfd3e2b4c.js" crossorigin="anonymous"></script>
-    <title>Marktplace</title>
+    <title>Portfólio</title>
 </head>
 <body>
     <header>
@@ -22,18 +23,37 @@
     <nav>
         <div class="menu-x"><i class="fa-solid fa-xmark"></i></div>
         <ul>
-            <li><a href=""><i class="fa-solid fa-house"></i><span>Home</span></a></li>
-            <li><a href=""><i class="fa-solid fa-user"></i></i><span>Sobre Mim</span></a></li>
-            <li><a href=""><i class="fa-solid fa-star"></i></i><span>Skills</span></a></li>
-            <li><a href=""><i class="fa-solid fa-file"></i><span>Projects</span></a></li>
-            <li><a href=""><i class="fa-solid fa-house"></i><span>Contacts</span></a></li>
+            <li><a href="#home"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+           
+            <li><a href="#skills"><i class="fa-solid fa-star"></i></i><span>Skills</span></a></li>
+            <li><a href="#projects"><i class="fa-solid fa-file"></i><span>Projects</span></a></li>
+            <li><a href="#contact"><i class="fa-solid fa-house"></i><span>Contacts</span></a></li>
         </ul>
+        <div class="container-nav">
+            <div><a href="" title="github"><i class="fa-brands fa-github"></i></a></div>
+            <div><a href="" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></div>
+            <div><a href="" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></div>
+        </div>
+        
     </nav>
     <main>
-        <section class="inicio"></section>
-        <section class="meio"></section>
-        <section class="fim"></section>
+        <section class="home"id="home">
+            <div class="container-home">
+                <p>Olá meu nome é </p>
+                <h1>Anderson Reis</h1>
+                <p>sou desenvolvedor Front-end e Back-end</p>
+            </div>
+            <div>
+                <img src="./image/img-programmer.png" alt="" width="300px" height="300px">
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container-skills-text"></div>
+            <div class="container-skills"></div>
+        </section>
+        <section class="Projects" id="projects"></section>
     </main>
-    <footer></footer>
+    <footer class="footer" id="contact"></footer>
 </body>
 </html>
