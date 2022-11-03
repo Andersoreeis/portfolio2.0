@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+ 
 }
 :root{
     --color-primary:#1B222A;
@@ -28,6 +28,7 @@ main{
 }
 section{
     height: 100vh;
+   
 }
 footer{
    

@@ -1,0 +1,72 @@
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.container-skills-text{
+    width: 400px;
+}
+.container-skills-text > h2{
+    font-size: 1.8rem;
+}
+.container-skills-text > p{
+    font-size: 1.5rem;
+}
+.container-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-skills-text > h2{
+    color: var(--color-secundary);
+}
+.container-div-skills1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container-div-skills2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container-div-skills1 > div{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3.0rem;
+    gap: 20px;
+    color: var(--color-secundary);
+   
+}
+.container-div-skills2 > div{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3.0rem;
+    gap: 20px;
+    color: var(--color-secundary);
+   
+}
+.container-div-skills1 > div> span{
+    font-size: 1.5rem;
+}
+.container-div-skills2 > div> span{
+    font-size: 1.5rem;
+}
