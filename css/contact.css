@@ -1,0 +1,28 @@
+footer{
+    border-top: 3px solid var(--color-secundary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-text{
+    font-weight: bold;
+    color: #333;
+    opacity: 0.7;
+}
+.voltar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.voltar > a{
+    color: var(--color-primary);
+    font-size: 1.3rem;
+}
